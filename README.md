@@ -2,7 +2,8 @@
 
 ### Detecting Depression in Social Media via Twitter Usage
 
-Anne Bonner August 3, 2019
+Anne Bonner 
+August 3, 2019
 
 
 More than 300 million people suffer from depression and only a fraction receive adequate treatment.  Depression is the leading cause of disability worldwide and nearly 800,000 people every year die due to suicide. Suicide is the second leading cause of death in 15-29-year-olds. Diagnoses (and subsequent treatment) for depression are often delayed, imprecise, and/or missed entirely.
@@ -62,3 +63,27 @@ In order to gather Tweets with TWINT, a command such as
 `twint -s "depression" --since 2019-07-20 -o depression —csv`
 
 Can be run to scrape Tweets that contain the term “depression” on a specific day (or days) and save the information as a csv file. Make sure to adjust the date and/or search terms as necessary.
+
+### Necessary Libraries
+
+This model utilizes a number of libraries, including Matplotlib, NumPy, and more. These libraries can easily be downloaded and documentation is available on the official sites. Example pip installation commands included below.
+
+This model utilizes:
+* [Matplotlib](https://matplotlib.org/3.1.1/users/installing.html)
+    `pip install matplotlib`
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
+    `pip install pandas`
+* [NumPy](https://numpy.org/)
+    `pip install numpy`
+* [Scikit-Learn](https://scikit-learn.org/stable/install.html)
+    `conda install scikit-learn`
+* [Keras](https://keras.io/)
+    `pip install keras`
+* [Gensim](https://radimrehurek.com/gensim/install.html)
+    `pip install gensim`
+* [NLTK](https://www.nltk.org/)
+    `pip install --user -U nltk`
+* [WordCloud](https://pypi.org/project/wordcloud/)
+    `pip install wordcloud`
+* [Ftfy](https://ftfy.readthedocs.io/en/latest/)
+    `pip install ftfy`
