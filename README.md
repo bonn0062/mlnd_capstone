@@ -1,4 +1,4 @@
-# You Are What You Tweet: 
+# # You Are What You Tweet: 
 
 ### Detecting Depression in Social Media via Twitter Usage
 
@@ -53,13 +53,12 @@ The link to the Sentiment140 dataset contains this information about the content
 
 Tweets indicating depression were retrieved using the Twitter scraping tool TWINT using linguistic markers indicitive of depression. The scraped tweets may contain tweets that do not indicate the user having depression, such as tweets linking to articles about depression or talking about loved ones who have depression. As a result, the scraped tweets will need to be manually checked for better testing results. 
 
-*The csv file of scraped and processed tweets is provided in the GitHub repository.*
+**The .csv of scraped and processed tweets is provided in the GitHub repository, however, because the file size is over the limit, it has been provided as a .zip file and must be unzipped before using.**
+
+This can often be done within an ipynb with a command like `!unzip vader_processed_final.csv.zip`
 
 In order to gather Tweets with TWINT, a command such as 
 
 `twint -s "depression" --since 2019-07-20 -o depression —csv`
 
 Can be run to scrape Tweets that contain the term “depression” on a specific day (or days) and save the information as a csv file. Make sure to adjust the date and/or search terms as necessary.
-
-
-
