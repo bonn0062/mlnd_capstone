@@ -1,4 +1,4 @@
-# # You Are What You Tweet: 
+# You Are What You Tweet: 
 
 ### Detecting Depression in Social Media via Twitter Usage
 
